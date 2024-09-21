@@ -1,0 +1,9 @@
+:root {
+    --cor-fundo: #ece3f0;
+    --cor-principal: #5e376d;
+    --cor-acessoria: #d4bbdd;
+    --cor-alternativa1: #f8c0c8;
+    --cor-alternativa2: #efe7d3;
+
+    --largura-max: 1280px;
+}
