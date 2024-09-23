@@ -14,9 +14,73 @@
     color: var(--cor-principal);
     padding: 10px 20px;
     border-radius: 10px;
+    transition: 0.2s ease-in;
 }
 
 .cabecalho .navegacao .item:hover {
     background-color: var(--cor-acessoria);
-    color: #ffffff;
+    color: #fdecfd;
 }
+
+/* MENU RESPONSIVO */
+
+.navegacao .menu {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    display: block;
+}
+
+.navegacao .menu .responsivo, .navegacao .menu .responsivo::after, .navegacao .menu .responsivo::before {
+    background-color: var(--cor-principal);
+    width: 36px;
+    height: 4px;
+    position: absolute;
+    transition: 0.4s ease-in-out;
+}
+
+.navegacao .menu .responsivo {
+    top: 16px;
+}
+
+.navegacao .menu .responsivo::after {
+    content: url('');
+    top: 10px;
+}
+
+.navegacao .menu .responsivo::before {
+    content: url('');
+    bottom: 10px;
+}
+
+.navegacao .menu-responsivo {
+    display: none;
+}
+
+/* MENU RESPONSIVO ANIMAÇÃO */
+
+.menu-responsivo:checked ~ label .responsivo {
+    transform: rotate(45deg);
+}
+
+.menu-responsivo:checked ~ label .responsivo::after, .menu-responsivo:checked ~ label .responsivo::before {
+    transform: rotate(90deg);
+}
+
+.menu-responsivo:checked ~ label .responsivo::after {
+    top: 0px;
+}
+
+.menu-responsivo:checked ~ label .responsivo::before {
+    bottom: 0px;
+}
+
+/* OCULTAR O MENU RESPONSIVO */
+
+.navegacao .menu {
+    display: none;
+}
+
+
+
+

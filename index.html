@@ -9,9 +9,10 @@
 
     <link rel="shortcut icon" href="./src/imagens/psy-favicon.png" sizes="32x32" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/estilos.css">
-    <link rel="stylesheet" href="./src/css/variaveis.css">
     <link rel="stylesheet" href="./src/css/menu.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -37,12 +38,12 @@
         </a>
 
         <nav class="navegacao">
-            <label id="menu-responsivo">
+            <input type="checkbox" name="menu-responsivo" id="menu-responsivo" class="menu-responsivo">
+            <label for="menu-responsivo">
                 <div class="menu">
                     <span class="responsivo"></span>
                 </div>
             </label>
-            <input type="checkbox" name="menu-responsivo" for="menu-responsivo">
 
             <ul>
                 <li><a href="#publico" class="item">Público</a></li>

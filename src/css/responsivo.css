@@ -1,0 +1,78 @@
+/* RESPONSIVO CABECALHO */
+
+@media(max-width: 704px) {
+    .navegacao ul .item {
+        display: none;
+    }
+
+    .navegacao .menu {
+        display: block;
+    }
+
+    /* MOSTRAR AS OPÇÕES DO MENU  */
+    .menu-responsivo:checked ~ ul {
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+        background-color: var(--cor-fundo);
+        transform: translateY(75%);
+        position: absolute;
+        right: 0;
+        width: 153.27px;
+    }
+    
+    .menu-responsivo:checked ~ ul .item {
+        display: inline-block;
+    }
+    
+    .cabecalho .navegacao .item {
+        color: var(--cor-principal);
+        border-radius: 10px;
+        transition: 0.2s ease-in;
+        width: 100%;
+    }
+    
+    .cabecalho .navegacao .item:hover {
+        background-color: var(--cor-acessoria);
+        color: #fdecfd;
+    }
+    
+}
+
+@media(max-width: 375px) {
+    .cabecalho {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        height: 100%;
+    }
+
+    .cabecalho .logo {
+        display: flex;
+        justify-content: center;
+        padding: 20px 5px;
+    }
+
+    .navegacao .menu .responsivo, .navegacao label {
+        display: none;
+    }
+
+    .navegacao ul .item {
+        display: inline-block;
+    }
+    
+    .navegacao{
+        flex-flow: column wrap;
+        text-align: center;
+    }
+    
+    .navegacao ul{
+        flex-flow: column wrap;
+        width: 178.69px;
+    }
+
+
+
+
+
+}

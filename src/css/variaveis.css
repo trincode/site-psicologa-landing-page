@@ -1,9 +1,17 @@
 :root {
-    --cor-fundo: #ece3f0;
+    --cor-fundo: #fdecfd;
     --cor-principal: #5e376d;
-    --cor-acessoria: #d4bbdd;
+    --cor-acessoria:#ee82ee;
     --cor-alternativa1: #f8c0c8;
     --cor-alternativa2: #efe7d3;
-
+    
     --largura-max: 1280px;
 }
+
+
+
+/* --cor-acessoria: #d4bbdd; */
+
+
+
+

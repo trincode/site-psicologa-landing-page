@@ -7,10 +7,10 @@ body {
 }
 
 .cabecalho {
-    background-color: #ffffff;
+    background-color: var(--cor-fundo);
     display: flex;
     justify-content: space-between;
-    padding: 2%;
+    padding: 20px;
     height: 12vh;
     font-family: 'Spectral', serif;
 }
@@ -21,10 +21,11 @@ body {
     gap: 10px;
     height: 100%;
     padding: 0 20px;
-    margin: 0 20px;
     font-size: 0.8rem;
     color: var(--cor-principal);
     border-radius: 10px;
+    min-width: 178.7px;
+    transition: 0.2s ease-in;
 }
 
 .cabecalho .logo h2 {
@@ -38,8 +39,7 @@ body {
 
 .cabecalho .logo:hover {
     background-color: var(--cor-acessoria);
-    color: #ffffff;
+    color: #fdecfd;
 }
-
 
 
