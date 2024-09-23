@@ -7,7 +7,7 @@ body {
 }
 
 .cabecalho {
-    background-color: var(--cor-alternativa2);
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     padding: 2%;
@@ -16,14 +16,15 @@ body {
 }
 
 .cabecalho .logo {
-    background-color: var(--cor-alternativa1);
     display: flex;
     align-items: center;
     gap: 10px;
     height: 100%;
-    padding: 0 40px;
+    padding: 0 20px;
+    margin: 0 20px;
     font-size: 0.8rem;
     color: var(--cor-principal);
+    border-radius: 10px;
 }
 
 .cabecalho .logo h2 {
@@ -32,25 +33,13 @@ body {
 }
 
 .material-symbols-outlined {
-    background-color: chartreuse;
     transform: scale(1.6);
 }
 
-.cabecalho .navegacao {
-    background-color: var(--cor-alternativa1);
-    display: flex;
-    align-items: center;
-    height: 100%;
-    font-size: 1.2rem;
-    font-weight: 700;
+.cabecalho .logo:hover {
+    background-color: var(--cor-acessoria);
+    color: #ffffff;
 }
 
-.cabecalho .navegacao ul {
-    display: flex;
-}
 
-.cabecalho .navegacao .item {
-    padding: 50px;
-    color: var(--cor-principal);
-    
-}
+

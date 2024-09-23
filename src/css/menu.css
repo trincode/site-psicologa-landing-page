@@ -1,0 +1,22 @@
+.cabecalho .navegacao {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cabecalho .navegacao ul {
+    display: flex;
+}
+
+.cabecalho .navegacao .item {
+    color: var(--cor-principal);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.cabecalho .navegacao .item:hover {
+    background-color: var(--cor-acessoria);
+    color: #ffffff;
+}
