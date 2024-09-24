@@ -42,4 +42,60 @@ body {
     color: #fdecfd;
 }
 
+.principal {
+    background: url(../imagens/bg-3.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.principal .informacoes {
+    padding: 5%;
+}
+
+.principal .informacoes .titulo {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.principal .informacoes .subtitulo {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.principal .informacoes .subtitulo strong {
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.principal .informacoes .texto {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding-top: 20px;
+}
+
+.principal .informacoes .btn-agendar {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin: 20px 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    border: none;
+    border-radius: 15px;
+}
+
+.principal .foto {
+    height: 100%;
+    align-self: flex-end;
+    position: static;
+}
+
+.principal .foto img {
+    height: 100%;
+}
