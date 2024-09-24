@@ -88,6 +88,13 @@ body {
     color: var(--cor-principal);
     border: none;
     border-radius: 15px;
+    transition: 0.2s ease-in;
+}
+
+.principal .informacoes .btn-agendar:hover {
+    background-color: var(--cor-acessoria);
+    color: var(--cor-fundo);
+    cursor: pointer;
 }
 
 .principal .foto {
