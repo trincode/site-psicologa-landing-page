@@ -1,5 +1,20 @@
 /* RESPONSIVO CABECALHO */
 
+@media(max-width: 890px) {
+    .principal {
+        flex-wrap: wrap;
+    }
+    
+    .principal .informacoes {
+        width: 503px;
+    }
+
+    .principal .foto {
+        width: 388px;
+    }
+
+}
+
 @media(max-width: 704px) {
     .navegacao ul .item {
         display: none;
