@@ -1,5 +1,4 @@
 body {
-    background-color: aquamarine;
     font-size: 62.5%;
     max-width: var(--largura-max);
     font-family: 'Gowun Batang', system-ui;
@@ -137,6 +136,11 @@ body {
 .publico .imagem img {
     width: 100%;
     height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.publico .imagem a:hover img {
+    opacity: 0.8;
 }
 
 .publico .descricao.texto1, .publico .descricao.texto2 {
