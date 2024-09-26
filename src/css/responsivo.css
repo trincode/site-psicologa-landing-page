@@ -52,6 +52,15 @@
         align-self: auto;
     }
 
+    .publico .descricao h3 {
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    .publico .descricao p {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
 }
 
 @media(max-width: 721px) {
@@ -90,7 +99,28 @@
         background-color: var(--cor-acessoria);
         color: #fdecfd;
     }
+
+    .publico {
+        grid-template-columns: auto;
+    }
     
+    .publico .descricao.texto2 {
+        grid-row: 3 / 4;
+    }
+    
+    .publico .descricao {
+        padding: 4%;
+    }
+    
+    .publico .descricao h3 {
+        padding: 1.2rem 0 0.6rem;
+    }
+    
+    .publico .descricao p {
+        line-height: 1rem;
+        font-size: 1rem;
+        padding: 0.6rem 0 1.2rem;
+    }
 }
 
 @media(max-width: 375px) {
@@ -137,8 +167,5 @@
     .principal .foto {
         height: 45%;
     }
-
-
-
 
 }
