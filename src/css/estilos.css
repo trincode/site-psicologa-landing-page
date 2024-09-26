@@ -167,6 +167,82 @@ body {
     white-space: wrap;
 }
 
+.tratamentos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px repeat(2, auto);
+    text-align: center;
+    height: 80vh;
+}
+
+.tratamentos .titulo {
+    background-color: var(--cor-fundo);
+    grid-area: 1 / 1 / 1 / 4;
+    padding: 20px;
+    font-size: 2rem;
+    color: var(--cor-principal);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tratamentos .trato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.4rem;
+}
+
+.tratamentos .trato.item1 {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.tratamentos .trato.item2 {
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+.tratamentos .trato.item3 {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    grid-area: 2 / 3 / 2 / 3;
+}
+
+.tratamentos .trato.item4 {
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    grid-area: 3 / 1 / 3 / 1;
+}
+
+.tratamentos .trato.item5 {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    grid-area: 3 / 2 / 3 / 2;
+}
+
+.tratamentos .trato.item6 {
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    grid-area: 3 / 3 / 3 / 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
