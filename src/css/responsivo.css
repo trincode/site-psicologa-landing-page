@@ -5,9 +5,14 @@
         height: auto;
     }
 
+    .duvidas .cartao {
+        width: 80%;
+    }
+
     .duvidas .cartao:last-child {
         margin-bottom: 10px;
     }
+    
 }
 
 @media(max-width: 890px) {
@@ -215,6 +220,15 @@
         grid-area: 7 / 1 / 7 / 1;
     }
 
+    .avaliacoes .painel-avaliacoes .avaliacao {
+        min-width: 300px;
+        width: 80%;
+    }
+
+    .duvidas .cartao {
+        min-width: 300px;
+        width: 90%;
+    }
 
 }
 
@@ -262,5 +276,12 @@
     .principal .foto {
         height: 45%;
     }
+
+    .avaliacoes .painel-avaliacoes .avaliacao {
+        min-width: 300px;
+        width: 90%;
+    }
+
+
 
 }

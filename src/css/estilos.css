@@ -344,6 +344,7 @@ body {
 
 .duvidas .cartao .texto .pergunta {
     font-size: 1.4rem;
+    line-height: 1.4rem;
 }
 
 .duvidas .cartao .texto .resposta {
