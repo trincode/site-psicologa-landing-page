@@ -76,6 +76,21 @@
         font-size: 1.2rem;
         font-weight: 600;
     }
+
+    .pergunte-me .informacoes {
+        width: 450px;
+    }
+    
+    .pergunte-me .informacoes .titulo {
+        font-size: 2.8rem;
+    }
+    
+    .pergunte-me .informacoes .mensagem {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        font-weight: 600;
+    }
+
 }
 
 @media(max-width: 721px) {
@@ -177,6 +192,49 @@
     .tratamentos .trato.item6 {
         grid-area: 4 / 2 / 4 / 2;
     }
+
+    .pergunte-me .informacoes {
+        width: 350px;
+    }
+    
+    .pergunte-me .informacoes .titulo {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
+    
+    .pergunte-me .informacoes .mensagem {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 595px) {
+    .pergunte-me {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pergunte-me .ilustracao {
+        height: 300px;
+        align-self: auto;
+    }
+
+    .pergunte-me .informacoes {
+        margin: 20px 10px 10px 10px;
+    }
+
+    .pergunte-me .informacoes .titulo {
+        font-size: 2.2rem;
+    }
+    
+    .pergunte-me .informacoes .mensagem {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        font-weight: 600;
+    }
 }
 
 @media(max-width: 475px) {
@@ -228,6 +286,10 @@
     .duvidas .cartao {
         min-width: 300px;
         width: 90%;
+    }
+
+    .pergunte-me .informacoes {
+        margin: 10px 10px;
     }
 
 }

@@ -115,6 +115,7 @@ body {
     background-color: var(--cor-acessoria);
     color: var(--cor-fundo);
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .principal .foto {
@@ -351,6 +352,44 @@ body {
     font-size: 0.9rem;
 }
 
+.pergunte-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    background-color: #fff;
+}
+
+.pergunte-me .ilustracao {
+    height: 90%;
+    align-self: flex-end;
+}
+
+.pergunte-me .ilustracao img {
+    height: 100%;
+}
+
+.pergunte-me .informacoes {
+    color: var(--cor-principal);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pergunte-me .informacoes .titulo {
+    font-size: 3rem;
+    padding: 10px 0;
+}
+
+.pergunte-me .informacoes .mensagem {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+}
+
+.pergunte-me .informacoes .btn-agendar {
+    align-self: center;
+}
 
 
 
