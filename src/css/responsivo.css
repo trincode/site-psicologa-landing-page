@@ -126,6 +126,7 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: 100px repeat(4, auto);
+        height: auto;
     }
 
     .tratamentos .trato {
