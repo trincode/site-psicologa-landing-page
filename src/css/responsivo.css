@@ -1,5 +1,15 @@
 /* RESPONSIVO CABECALHO */
 
+@media(max-width: 1012px) {
+    .duvidas {
+        height: auto;
+    }
+
+    .duvidas .cartao:last-child {
+        margin-bottom: 10px;
+    }
+}
+
 @media(max-width: 890px) {
     .principal {
         display: flex;
