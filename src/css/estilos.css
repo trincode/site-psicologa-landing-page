@@ -391,8 +391,89 @@ body {
     align-self: center;
 }
 
+.rodape {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+    font-weight: 600;
+    text-align: center;
+}
 
+.rodape .informacoes {
+    text-align: center;
+    padding: 60px 30px 30px 30px;
+    font-size: 1.2rem;
+}
 
+.rodape .redes .contatos, .rodape .navegacao ul {
+    display: flex;
+}
+
+.rodape .redes {
+    width: 55%;
+}
+
+.rodape .redes .sociais a {
+    color: var(--cor-fundo);
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.rodape .redes .sociais a:hover {
+    color: var(--cor-acessoria);
+}
+
+.rodape .redes .contatos a {
+    color: var(--cor-fundo);
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.rodape .redes .contatos a:hover {
+    color: var(--cor-acessoria);
+}
+
+.rodape .redes hr {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.rodape .redes .contatos {
+    font-size: 0.8rem;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.rodape .navegacao {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.rodape .navegacao ul li a {
+    color: var(--cor-fundo);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.rodape .navegacao ul li a:hover {
+    background-color: var(--cor-acessoria);
+    color: var(--cor-principal);
+}
+
+.rodape .direitos {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.rodape .direitos a {
+    color: var(--cor-acessoria);
+    text-decoration: underline;
+}
 
 
 
