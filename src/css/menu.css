@@ -18,8 +18,8 @@
 }
 
 .cabecalho .navegacao .item:hover {
-    background-color: var(--cor-acessoria);
-    color: #fdecfd;
+    background-color: var(--cor-acessoria1);
+    color: var(--cor-fundo);
 }
 
 /* MENU RESPONSIVO */
