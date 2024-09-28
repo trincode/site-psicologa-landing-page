@@ -91,6 +91,10 @@
         font-weight: 600;
     }
 
+    .rodape .redes hr {
+        width: 100%;
+    }
+
 }
 
 @media(max-width: 721px) {
@@ -207,6 +211,11 @@
         line-height: 1.4rem;
         font-weight: 600;
     }
+
+    .rodape .redes {
+        width: 80%;
+    }
+    
 }
 
 @media(max-width: 595px) {
@@ -235,6 +244,29 @@
         line-height: 1.4rem;
         font-weight: 600;
     }
+
+    .rodape .redes .contatos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contatos .contato1, .contatos .contato2 {
+        display: flex;
+    }
+
+    .rodape .navegacao {
+        padding: 10px;
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .rodape .navegacao ul li a {
+        color: var(--cor-fundo);
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    
 }
 
 @media(max-width: 475px) {
@@ -290,6 +322,28 @@
 
     .pergunte-me .informacoes {
         margin: 10px 10px;
+    }
+
+    .rodape {
+        height: auto;
+    }
+
+    .rodape .navegacao ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rodape .navegacao ul li{
+        margin: 10px 0;
+    }
+
+    .rodape .navegacao ul li a {
+        padding: 10px 20px;
+    }
+
+    .rodape .direitos {
+        font-size: 0.8rem;
     }
 
 }

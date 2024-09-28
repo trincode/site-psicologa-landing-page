@@ -405,7 +405,7 @@ body {
 
 .rodape .informacoes {
     text-align: center;
-    padding: 60px 30px 30px 30px;
+    padding: 60px 30px 10px 30px;
     font-size: 1.2rem;
 }
 
@@ -420,7 +420,7 @@ body {
 .rodape .redes .sociais a {
     color: var(--cor-fundo);
     font-size: 2rem;
-    padding: 30px;
+    margin: 30px;
 }
 
 .rodape .redes .sociais a:hover {
@@ -430,6 +430,7 @@ body {
 .rodape .redes .contatos a {
     color: var(--cor-fundo);
     font-size: 1rem;
+    padding: 0 5px;
     margin: 0 auto;
 }
 
@@ -438,17 +439,24 @@ body {
 }
 
 .rodape .redes hr {
-    width: 100%;
+    width: 90%;
     margin: 10px auto;
 }
 
 .rodape .redes .contatos {
+    display: flex;
+    justify-content: space-around;
     font-size: 0.8rem;
     gap: 10px;
     margin: 10px auto;
 }
 
+.contatos .contato1, .contatos .contato2 {
+    display: flex;
+}
+
 .rodape .navegacao {
+    display: flex;
     padding: 10px;
     font-size: 1rem;
 }
