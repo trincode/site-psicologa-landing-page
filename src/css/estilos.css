@@ -51,7 +51,7 @@ body {
     position: relative;
 }
 
-.principal::after {
+.principal::before {
     content: url('');
     background: linear-gradient(to right, var(--cor-fundo) 10%, rgba(0, 0, 0, 0)) 90%;
     position: absolute;
@@ -62,10 +62,29 @@ body {
     filter: brightness(110%);
 }
 
+.principal::after {
+    content: url(../imagens/icones/arrow-down-48.png);
+    position: absolute;
+    bottom: 0px;
+    animation: arrow-down 0.8s infinite alternate;
+    transition: ease-out;
+}
+
+@-webkit-keyframes arrow-down {
+    0% {
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(-70px);
+        opacity: 0;
+    }
+}
+
 .principal .informacoes {
     padding: 5%;
     z-index: 1;
-    color: var(--cor-principal)
+    color: var(--cor-principal);
 }
 
 .principal .informacoes .titulo {
