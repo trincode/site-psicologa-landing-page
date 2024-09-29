@@ -75,7 +75,6 @@ body {
         -webkit-transition: ease-in-out;
         opacity: 0.8;
     }
-    
     100% {
         -webkit-transform: translateY(-70px);
         opacity: 0;
