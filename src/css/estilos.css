@@ -42,7 +42,7 @@ body {
 }
 
 .principal {
-    background: url(../imagens/bg-3.jpg) no-repeat center center;
+    background: url('../imagens/bg-3.jpg') no-repeat center center;
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -63,7 +63,7 @@ body {
 }
 
 .principal::after {
-    content: url(../imagens/icones/arrow-down-48.png);
+    content: url('../imagens/icones/arrow-down-48.png');
     position: absolute;
     bottom: 0px;
     animation: arrow-down 0.8s infinite alternate;
