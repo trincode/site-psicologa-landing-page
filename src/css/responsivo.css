@@ -18,6 +18,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        height: auto;
+    }
+
+    .principal::after {
+        content: url(../imagens/icones/icons8-arrow-down-48-2.png);
+        z-index: 1;
     }
 
     .principal .informacoes {
@@ -60,7 +66,7 @@
     }
 
     .principal .foto {
-        height: 50%;
+        height: 321.45px;
         align-self: auto;
     }
 
@@ -383,7 +389,8 @@
     }
 
     .principal .foto {
-        height: 45%;
+        height: 321.45px;
+        align-self: auto;
     }
 
     .avaliacoes .painel-avaliacoes .avaliacao {
