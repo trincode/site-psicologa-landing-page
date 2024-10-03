@@ -133,7 +133,7 @@
     }
     
     .cabecalho .navegacao .item:hover {
-        background-color: var(--cor-acessoria);
+        background-color: var(--cor-acessoria1);
         color: #fdecfd;
     }
 
