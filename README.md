@@ -10,7 +10,7 @@ Primeiro projeto de site comercial finalizado! Como estou iniciante ainda, quase
 
 ### 🖼️ Aparência
 
-  <img src="./src/design/site-psicologa-overview-1.gif" width="900"><img src="./src/design/site-psicologa-overview-2.gif" width="560">
+  <img src="./src/design/site-psicologa-overview-1.gif" width="900"><img src="./src/design/site-psicologa-overview-2.gif" width="570">
   <img src="./src/design/site-psicologa-overview-3.gif" width="200">
 
 ### 🖇️ Links
