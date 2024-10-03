@@ -118,6 +118,7 @@
         position: absolute;
         right: 0;
         width: 153.27px;
+        z-index: 2;
     }
     
     .menu-responsivo:checked ~ ul .item {
