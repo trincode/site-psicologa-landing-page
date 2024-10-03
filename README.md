@@ -6,7 +6,7 @@ Primeiro projeto de site comercial finalizado! Como estou iniciante ainda, quase
 
 ### ⚔️ O desafio
 
-- Construir um site landing page para uma profissional de psicologia
+- Construir um site landing page para uma profissional de psicologia.
 
 ### 🖼️ Aparência
 
@@ -141,5 +141,5 @@ Pretendo adicionar um formulário para registrar dados de contato de possíveis 
 
 ## Agradecimentos
 
-Meus agradecimentos aos @roberto-hofstetter e @cadudias, criadores do DevQuest, curso no qual aprendi a maioria dos conhecimentos utilizados aqui nesse projeto!
+Meus agradecimentos aos [@roberto-hofstetter](https://github.com/roberto-hofstetter) e [@cadudias](https://github.com/cadudias), criadores do DevQuest, curso no qual aprendi a maioria dos conhecimentos utilizados aqui nesse projeto!
 
